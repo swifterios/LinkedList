@@ -18,6 +18,7 @@ class LinkedList<T> {
         while let next = node.next {
             node = next
         }
+        return node
     }
 }
 
